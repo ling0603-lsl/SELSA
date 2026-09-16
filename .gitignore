@@ -1,0 +1,18 @@
+# Keep private and large research artifacts out of this code repository
+checkpoints/
+**/checkpoint-*/
+models/
+data/
+images/
+logs/
+runs/
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.tar
+*.tar.gz
+*.zip
+.env
+*_secret*
